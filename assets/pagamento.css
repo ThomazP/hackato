@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    --s: 65px;
+    --c1: #dadee1;
+    --c2: #4a99b4;
+    --c3: #9cceb5;
+  
+    --_c: 75%, var(--c3) 52.72deg, #0000 0;
+    --_g1: conic-gradient(from -116.36deg at 25% var(--_c));
+    --_g2: conic-gradient(from 63.43deg at 75% var(--_c));
+    background: var(--_g1), var(--_g1) calc(3 * var(--s)) calc(var(--s) / 2),
+      var(--_g2), var(--_g2) calc(3 * var(--s)) calc(var(--s) / 2),
+      conic-gradient(
+        var(--c2) 63.43deg,
+        var(--c1) 0 116.36deg,
+        var(--c2) 0 180deg,
+        var(--c1) 0 243.43deg,
+        var(--c2) 0 296.15deg,
+        var(--c1) 0
+      );
+    background-size: calc(2 * var(--s)) var(--s);
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    margin-top: 100px;
+    margin-left: 475px;
+    max-width: 25%;
+    height: auto;
+    border: 3px solid rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+.text {
+    height: 85px;
+    width: 750px;
+    background-color: rgb(0, 183, 255);
+    border: none;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.text2 {
+    margin-left: 50px;
+    height: 55px;
+    background-color: rgb(0, 183, 255);
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.div {
+    margin-left: 475px;
+}
+
+
+#mapa {
+    margin-left: 375px;
+
+}
+
+.mapa-container {
+    margin-left: 25px;
+    text-align: center;
+}
+
+.endereco {
+    font-size: 16px;
+    margin-top: 10px;
+    align-content: center;
+}
+
